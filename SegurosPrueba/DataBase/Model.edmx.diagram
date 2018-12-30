@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="28e49b850d7547e98d409f22f498dcf5" Name="Diagram1">
+        <EntityTypeShape EntityType="SegurosPruebaModel.tbl_Asesor" Width="1.5" PointX="3" PointY="4.625" />
+        <EntityTypeShape EntityType="SegurosPruebaModel.tbl_Cliente" Width="1.5" PointX="3" PointY="6.875" />
+        <EntityTypeShape EntityType="SegurosPruebaModel.tbl_Compania" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="SegurosPruebaModel.tbl_Producto" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="SegurosPruebaModel.tbl_Venta" Width="1.5" PointX="5.25" PointY="1" />
+        <AssociationConnector Association="SegurosPruebaModel.FK_tbl_Venta_id_asesor" />
+        <AssociationConnector Association="SegurosPruebaModel.FK_tbl_Venta_id_cliente" />
+        <AssociationConnector Association="SegurosPruebaModel.FK_tbl_Producto_id_compania" />
+        <AssociationConnector Association="SegurosPruebaModel.FK_tbl_Venta_id_producto" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
